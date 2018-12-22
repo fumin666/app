@@ -1,0 +1,80 @@
+.content{
+    width: 100%;    
+    margin-top: 20px;
+    margin-left: 14px;
+    .con_box:nth-child(2n+1){
+        border-radius: 8px 8px 0 0;
+    }
+    .con_box:nth-child(2n){
+        border-radius: 0 0 8px 8px;
+    }
+    .con_box{
+        width: 93%;
+        background: #fff;
+        border-top: 1px solid #e3e3e3;
+        border-bottom: 1px solid #e3e3e3;
+        display: flex;
+        span{
+            width: .61rem;
+            height: .6rem;
+        }
+        #login-span{
+            background: url(../img/rw.png) no-repeat center;
+            background-size: 35%;
+        }
+        #register-span{
+            background: url(../img/password.png) no-repeat center;
+            background-size: 35%;
+        }
+        input{
+            width: 1.8rem;
+            height: .6rem;
+            border: 0px solid #fff;
+            font-size: 17px;
+        }
+        #usernameMessage{
+            font-size: 14px;
+            height: .6rem;
+            line-height: .6rem;
+        }
+    }
+    .remind{
+        font-size: 16px;
+        color: #333;
+        margin-top: 10px;
+    }
+    .login-btn{
+        width: 100%;
+        display: flex;
+        margin-top: 20px;
+        input{
+            background: #1bae5d;
+            font-size: 16px;
+            color: #fff;
+            width: 92%;
+            height: .5rem;
+            text-align: center;
+            border: 1px solid #1bae5d;
+            border-radius: 4px;
+        }
+    }
+    .register-btn{
+        input{
+            background: #fff;
+            color: #1bae5d
+        }
+    }
+    .forget-pass{
+        width: 92%;
+        height: 16px;
+        color: #999;
+        font-size: 14px;
+        margin-top: 30px;
+        display: flex;
+        .left-xian{
+            width: 1.3rem;
+            height: .13rem;
+            border-bottom: 1px solid #dddddd;
+        }
+    }
+}
